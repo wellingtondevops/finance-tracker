@@ -20,6 +20,8 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+* 
+* git remote add origin git@github.com:wellingtondevops/finance-tracker.git
 
 * ...
 # finance-tracker
