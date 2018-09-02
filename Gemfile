@@ -13,6 +13,8 @@ gem 'twitter-bootstrap-rails'
 
 gem 'devise-bootstrap-views'
 
+gem 'stock_quote'
+
 
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 
