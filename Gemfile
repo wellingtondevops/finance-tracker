@@ -5,6 +5,7 @@ ruby '2.3.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
+#gem 'rails', '4.2.10'
 # Use mysql as the database for Active Record
 
 gem 'devise'
@@ -17,6 +18,8 @@ gem 'stock_quote'
 
 
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
+gem 'jquery'
+gem 'jquery-rails'
 
 
 # Use Puma as the app server
