@@ -14,8 +14,10 @@ gem 'twitter-bootstrap-rails'
 
 gem 'devise-bootstrap-views'
 
+gem 'bootstrap-sass'
 gem 'stock_quote'
 
+gem 'font-awesome-rails'
 
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
 gem 'jquery'
