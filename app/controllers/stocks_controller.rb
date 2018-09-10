@@ -2,7 +2,7 @@ class StocksController < ApplicationController
     
    
 def search
-  if params[:stock].present?
+  if params[:stock].blank?
     @stock = Stock.new_from_lookup(params[:stock])
     if @stock
       respond_to do |format|
