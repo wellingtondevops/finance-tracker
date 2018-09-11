@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   
   devise_for :users, :controllers => { :registrations => "user/registrations" }
   resources :user_stocks, only: [:create, :destroy]
-  resources :user, only: [:show]
+  #resources :user, only: [:show]
+  resources :users, only: [:show]
   resources :friendships
   
   root 'welcome#index'
